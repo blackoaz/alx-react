@@ -19,7 +19,7 @@
     "test-watch": "jest --watch"
   },
   "keywords": [],
-  "author": "Olumide Micheal",
+  "author": "Paulo Akello",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.20.12",
