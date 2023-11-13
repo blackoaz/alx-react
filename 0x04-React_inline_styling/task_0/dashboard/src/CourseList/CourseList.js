@@ -12,7 +12,7 @@ function CourseList({ listCourses }) {
             <CourseListRow isHeader={true} textFirstCell='Course name' textSecondCell="Credit" />
           </thead>
           <tbody>
-          { listCourses.length == 0 ? <CourseListRow isHeader={false} textFirstCell='No course available yet' style={{backgroundColor:'#f5f5f5ab'}}/> : null
+          { listCourses.length == 0 ? <CourseListRow isHeader={false} textFirstCell='No course available yet'/> : null
           }
           { listCourses.map((val, idx) => {
             return <CourseListRow isHeader={false} textFirstCell={val.name} textSecondCell={val.credit} key={val.id}/>
